@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae823739f1.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="holder" style="margin-top:200px;">
+        <div class="parent">
+            <h3 style="font-family: 'Aleo', serif;font-size:170%;text-shadow: 4px 4px 4px #aaa;">Login</h3>
+            <form method="post" action="login.php" style="margin-top:50px;">
+            
+                <div>
+                    <input type="email" name="email" placeholder="Email *" required>
+                    <span class="border"></span>
+                </div>
+            
+                <div>
+                    <input type="password" name="password" placeholder="Password *" required>
+                    <span class="border"></span>
+                </div>
+                <input type="submit" value="Login" class="private-inp">
+                <p>
+                    Not have an Account?
+                    <a href="index.html">Signup Here</a>
+                </p>
+            </form>
+            <h4>Or Signin With</h4>
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
